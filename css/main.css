@@ -54,13 +54,12 @@ body {
   position: relative;
   font-family: rb;
   font-weight: normal;
-  overflow-x: none;
 }
 
 body::-webkit-scrollbar {
   background-color: #2b3d5b;
   width: 7px;
-  height: 0px;
+  height: 8px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -188,7 +187,6 @@ header {
   left: 0;
   right: 0;
   z-index: 9;
-  overflow-x: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1756,7 +1754,7 @@ textarea.form-control {
 }
 
 .splash {
-  position: fixed;
+  position: absolute;
   top: 40px;
   inset-inline-end: 40px;
   width: 1px;
@@ -1773,17 +1771,17 @@ textarea.form-control {
 .splash::after {
   content: "";
   display: block;
-  position: fixed;
+  position: absolute;
   border-radius: 50%;
   background-color: #132748;
-  width: 284vh;
-  height: 284vh;
-  top: -142vh;
-  inset-inline-end: -142vh;
+  width: 284vmax;
+  height: 284vmax;
+  top: -142vmax;
+  inset-inline-start: -142vmax;
   -webkit-transform: scale(0);
           transform: scale(0);
-  -webkit-transform-origin: center;
-          transform-origin: center;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
   z-index: 8;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;

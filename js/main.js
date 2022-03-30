@@ -103,7 +103,9 @@ $(document).ready(function () {
     $(".logo").toggleClass("active");
     $(".navbar").fadeToggle(300);
     $(".header").toggleClass("active");
+    $("body").scrollLeft = 0
     $("body").toggleClass("overflow");
+
   });
 });
 

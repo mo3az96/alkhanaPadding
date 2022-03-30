@@ -1774,7 +1774,7 @@ textarea.form-control {
   display: block;
   position: absolute;
   border-radius: 50%;
-  background-color: red;
+  background-color: #0f0;
   width: 284vmax;
   height: 284vmax;
   top: -142vmax;

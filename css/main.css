@@ -1773,7 +1773,7 @@ textarea.form-control {
   display: block;
   position: absolute;
   border-radius: 50%;
-  background-color: #baae5b;
+  background-color: #132748;
   width: 284vh;
   height: 284vh;
   top: -142vh;
@@ -1783,13 +1783,13 @@ textarea.form-control {
   -webkit-transform-origin: center;
           transform-origin: center;
   z-index: 8;
-  -webkit-transition: all 0.4s cubic-bezier(0.755, 0.05, 0.855, 0.06);
-  transition: all 0.4s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .header.active > .splash::after {
-  -webkit-transition: all 0.5s cubic-bezier(0.755, 0.05, 0.855, 0.06);
-  transition: all 0.5s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   -webkit-transform: scale(1);
           transform: scale(1);
 }

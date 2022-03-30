@@ -1774,10 +1774,10 @@ textarea.form-control {
   position: absolute;
   border-radius: 50%;
   background-color: #132748;
-  width: 284vmax;
-  height: 284vmax;
-  top: -142vmax;
-  inset-inline-start: -142vmax;
+  width: 284vh;
+  height: 284vh;
+  top: -142vh;
+  inset-inline-start: -142vh;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transform-origin: 50% 50%;

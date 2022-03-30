@@ -99,11 +99,12 @@ $(document).ready(function () {
   });
 
   $(".menu-btn").on("click", function (e) {
+    
     $(this).toggleClass("active");
     $(".logo").toggleClass("active");
     $(".navbar").fadeToggle(300);
     $(".header").toggleClass("active");
-    $("body").scrollLeft = 0
+    $("body").scrollLeft = 1000000
     $("body").toggleClass("overflow");
 
   });

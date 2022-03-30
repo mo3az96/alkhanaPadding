@@ -103,13 +103,16 @@ $(document).ready(function () {
     $(".logo").toggleClass("active");
     $(".navbar").fadeToggle(300);
     $(".header").toggleClass("active");
-    $("html,body").animate(
-      {
-        scrollLeft: 0,
-      },
-      0
-    );
-    $("body").toggleClass("overflow");
+    setTimeout(() => {
+      $("html,body").animate(
+        {
+          scrollLeft: 0,
+        },
+        0
+      );
+    }, 520);
+
+    // $("body").toggleClass("overflow");
   });
 });
 

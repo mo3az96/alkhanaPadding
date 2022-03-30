@@ -1705,6 +1705,12 @@ textarea.form-control {
   }
 }
 
+@media (max-width: 991px) {
+  .contact-section {
+    padding-bottom: 0;
+  }
+}
+
 @media (max-width: 767px) {
   .navbar {
     position: fixed;

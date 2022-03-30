@@ -188,6 +188,7 @@ header {
   left: 0;
   right: 0;
   z-index: 9;
+  overflow-x: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1755,7 +1756,7 @@ textarea.form-control {
 }
 
 .splash {
-  position: absolute;
+  position: fixed;
   top: 40px;
   inset-inline-end: 40px;
   width: 1px;
@@ -1772,13 +1773,13 @@ textarea.form-control {
 .splash::after {
   content: "";
   display: block;
-  position: absolute;
+  position: fixed;
   border-radius: 50%;
   background-color: #132748;
   width: 284vh;
   height: 284vh;
   top: -142vh;
-  inset-inline-start: -142vh;
+  inset-inline-end: -142vh;
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transform-origin: center;

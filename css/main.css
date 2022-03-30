@@ -54,6 +54,7 @@ body {
   position: relative;
   font-family: rb;
   font-weight: normal;
+  overflow-x: none;
 }
 
 body::-webkit-scrollbar {
